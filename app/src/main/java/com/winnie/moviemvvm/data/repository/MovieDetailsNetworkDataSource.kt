@@ -1,10 +1,10 @@
-package com.recepyesilkaya.moviemvvm.data.repository
+package com.winnie.moviemvvm.data.repository
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.recepyesilkaya.moviemvvm.data.api.TheMovieDBInterface
-import com.recepyesilkaya.moviemvvm.data.vo.MovieDetails
+import com.winnie.moviemvvm.data.api.TheMovieDBInterface
+import com.winnie.moviemvvm.data.vo.MovieDetails
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import java.lang.Exception

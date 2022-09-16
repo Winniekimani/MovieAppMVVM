@@ -1,4 +1,4 @@
-package com.recepyesilkaya.moviemvvm
+package com.winnie.moviemvvm
 
 import org.junit.Test
 

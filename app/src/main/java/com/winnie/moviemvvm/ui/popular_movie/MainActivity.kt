@@ -1,6 +1,5 @@
-package com.recepyesilkaya.moviemvvm.ui.popular_movie
+package com.winnie.moviemvvm.ui.popular_movie
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -9,11 +8,10 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
-import com.recepyesilkaya.moviemvvm.R
-import com.recepyesilkaya.moviemvvm.data.api.TheMovieDBClient
-import com.recepyesilkaya.moviemvvm.data.api.TheMovieDBInterface
-import com.recepyesilkaya.moviemvvm.data.repository.NetworkState
-import com.recepyesilkaya.moviemvvm.ui.single_movie_details.SingleActivity
+import com.winnie.moviemvvm.R
+import com.winnie.moviemvvm.data.api.TheMovieDBClient
+import com.winnie.moviemvvm.data.api.TheMovieDBInterface
+import com.winnie.moviemvvm.data.repository.NetworkState
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

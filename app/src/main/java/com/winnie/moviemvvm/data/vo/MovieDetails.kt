@@ -1,4 +1,4 @@
-package com.recepyesilkaya.moviemvvm.data.vo
+package com.winnie.moviemvvm.data.vo
 
 
 import com.google.gson.annotations.SerializedName

@@ -1,4 +1,4 @@
-package com.recepyesilkaya.moviemvvm.ui.single_movie_details
+package com.winnie.moviemvvm.ui.single_movie_details
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,12 +8,12 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
-import com.recepyesilkaya.moviemvvm.R
-import com.recepyesilkaya.moviemvvm.data.api.POSTER_BASE_URL
-import com.recepyesilkaya.moviemvvm.data.api.TheMovieDBClient
-import com.recepyesilkaya.moviemvvm.data.api.TheMovieDBInterface
-import com.recepyesilkaya.moviemvvm.data.repository.NetworkState
-import com.recepyesilkaya.moviemvvm.data.vo.MovieDetails
+import com.winnie.moviemvvm.R
+import com.winnie.moviemvvm.data.api.POSTER_BASE_URL
+import com.winnie.moviemvvm.data.api.TheMovieDBClient
+import com.winnie.moviemvvm.data.api.TheMovieDBInterface
+import com.winnie.moviemvvm.data.repository.NetworkState
+import com.winnie.moviemvvm.data.vo.MovieDetails
 import kotlinx.android.synthetic.main.activity_single.*
 import java.text.NumberFormat
 import java.util.*

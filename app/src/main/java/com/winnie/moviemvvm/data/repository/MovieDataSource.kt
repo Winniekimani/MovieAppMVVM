@@ -1,11 +1,11 @@
-package com.recepyesilkaya.moviemvvm.data.repository
+package com.winnie.moviemvvm.data.repository
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.PageKeyedDataSource
-import com.recepyesilkaya.moviemvvm.data.api.FIRST_PAGE
-import com.recepyesilkaya.moviemvvm.data.api.TheMovieDBInterface
-import com.recepyesilkaya.moviemvvm.data.vo.Movie
+import com.winnie.moviemvvm.data.api.FIRST_PAGE
+import com.winnie.moviemvvm.data.api.TheMovieDBInterface
+import com.winnie.moviemvvm.data.vo.Movie
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 

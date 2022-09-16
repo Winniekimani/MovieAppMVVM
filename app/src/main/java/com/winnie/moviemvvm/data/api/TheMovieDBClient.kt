@@ -1,4 +1,4 @@
-package com.recepyesilkaya.moviemvvm.data.api
+package com.winnie.moviemvvm.data.api
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -45,6 +45,7 @@ class TheMovieDBClient(context: Context) {
                 .newBuilder()
                 .url(url)
                 .build()
+
             else chain.request().newBuilder().url(url)
                 .header("Cache-Control", "public, only-if-cache, max-stale=" + 60 * 60 * 24 * 7)
                 .build()

@@ -1,4 +1,4 @@
-package com.recepyesilkaya.moviemvvm
+package com.winnie.moviemvvm
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.recepyesilkaya.moviemvvm", appContext.packageName)
+        assertEquals("com.winnie.moviemvvm", appContext.packageName)
     }
 }

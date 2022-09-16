@@ -1,9 +1,9 @@
-package com.recepyesilkaya.moviemvvm.ui.single_movie_details
+package com.winnie.moviemvvm.ui.single_movie_details
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.recepyesilkaya.moviemvvm.data.repository.NetworkState
-import com.recepyesilkaya.moviemvvm.data.vo.MovieDetails
+import com.winnie.moviemvvm.data.repository.NetworkState
+import com.winnie.moviemvvm.data.vo.MovieDetails
 import io.reactivex.disposables.CompositeDisposable
 
 class SingleMovieViewModel(private val movieRepository: MovieDetailsRepository, movieId: Int) : ViewModel() {

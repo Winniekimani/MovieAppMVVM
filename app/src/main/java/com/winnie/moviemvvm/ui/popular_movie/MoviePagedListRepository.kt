@@ -1,15 +1,15 @@
-package com.recepyesilkaya.moviemvvm.ui.popular_movie
+package com.winnie.moviemvvm.ui.popular_movie
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
-import com.recepyesilkaya.moviemvvm.data.api.POST_PER_PAGE
-import com.recepyesilkaya.moviemvvm.data.api.TheMovieDBInterface
-import com.recepyesilkaya.moviemvvm.data.repository.MovieDataSource
-import com.recepyesilkaya.moviemvvm.data.repository.MovieDataSourceFactory
-import com.recepyesilkaya.moviemvvm.data.repository.NetworkState
-import com.recepyesilkaya.moviemvvm.data.vo.Movie
+import com.winnie.moviemvvm.data.api.POST_PER_PAGE
+import com.winnie.moviemvvm.data.api.TheMovieDBInterface
+import com.winnie.moviemvvm.data.repository.MovieDataSource
+import com.winnie.moviemvvm.data.repository.MovieDataSourceFactory
+import com.winnie.moviemvvm.data.repository.NetworkState
+import com.winnie.moviemvvm.data.vo.Movie
 import io.reactivex.disposables.CompositeDisposable
 
 class MoviePagedListRepository (private val apiService : TheMovieDBInterface) {

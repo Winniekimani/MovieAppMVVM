@@ -1,4 +1,4 @@
-package com.recepyesilkaya.moviemvvm.ui.popular_movie
+package com.winnie.moviemvvm.ui.popular_movie
 
 import android.content.Context
 import android.content.Intent
@@ -9,14 +9,13 @@ import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.recepyesilkaya.moviemvvm.R
-import com.recepyesilkaya.moviemvvm.data.api.POSTER_BASE_URL
-import com.recepyesilkaya.moviemvvm.data.repository.NetworkState
-import com.recepyesilkaya.moviemvvm.data.vo.Movie
-import com.recepyesilkaya.moviemvvm.ui.single_movie_details.SingleActivity
+import com.winnie.moviemvvm.R
+import com.winnie.moviemvvm.data.api.POSTER_BASE_URL
+import com.winnie.moviemvvm.data.repository.NetworkState
+import com.winnie.moviemvvm.data.vo.Movie
+import com.winnie.moviemvvm.ui.single_movie_details.SingleActivity
 import kotlinx.android.synthetic.main.movie_list_item.view.*
 import kotlinx.android.synthetic.main.network_state_item.view.*
-import android.widget.Toast
 
 class PopularMoviePagedListAdapter(public val context: Context) : PagedListAdapter<Movie, RecyclerView.ViewHolder>(MovieDiffCallback()) {
 
