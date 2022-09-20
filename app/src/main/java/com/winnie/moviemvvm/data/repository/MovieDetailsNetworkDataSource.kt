@@ -34,7 +34,7 @@ class MovieDetailsNetworkDataSource(private val apiService: TheMovieDBInterface,
                         },
                         {
                             _networkState.postValue(NetworkState.ERROR)
-                            Log.e("MovieDetailsDataSource",it.message)
+                            Log.e("MovieDetailsDataSource", it.message.toString())
                         }
                     )
             )
@@ -42,7 +42,7 @@ class MovieDetailsNetworkDataSource(private val apiService: TheMovieDBInterface,
 
 
         }catch (e:Exception){
-            Log.e("MovieDetailsDataSource",e.message)
+            Log.e("MovieDetailsDataSource", e.message.toString())
         }
 
     }

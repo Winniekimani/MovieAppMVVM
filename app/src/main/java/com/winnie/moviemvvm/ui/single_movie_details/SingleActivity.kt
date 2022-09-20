@@ -71,7 +71,7 @@ class SingleActivity : AppCompatActivity() {
 
     private fun getViewModel(movieId:Int) : SingleMovieViewModel{
         return ViewModelProviders.of(this, object :ViewModelProvider.Factory {
-            override fun <T : ViewModel?> create(modelClass: Class<T>): T {
+            override fun <T : ViewModel> create(modelClass: Class<T>): T {
                 @Suppress("UNCHECKED_CAST")
                 return SingleMovieViewModel(movieRepository,movieId)as T
             }

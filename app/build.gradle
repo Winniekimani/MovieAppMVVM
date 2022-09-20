@@ -7,12 +7,11 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: "androidx.navigation.safeargs.kotlin"
 
 android {
-    compileSdkVersion 32
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 33
     defaultConfig {
         applicationId "com.winnie.moviemvvm"
         minSdkVersion 23
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -23,11 +22,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
 
-def retrofitVersion = '2.3.0'
+def retrofitVersion = '2.9.0'
 def rxJavaVersion = '2.1.1'
-def nav_version = "2.3.0"
+def nav_version = "2.5.2"
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -57,15 +58,15 @@ dependencies {
 
 
     //Glide
-    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
 
     //Gson
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson:2.9.0'
 
     //Pading
-    implementation 'androidx.paging:paging-runtime:2.1.2'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.0'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.3.0'
+    implementation 'androidx.paging:paging-runtime-ktx:3.1.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.2'
 
     //Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
