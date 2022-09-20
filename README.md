@@ -22,16 +22,25 @@ A simple project using The Movie DB based on Kotlin MVVM architecture
 * [RxJava2](https://developer.android.com/reference/kotlin/androidx/ui/rxjava2/package-summary) - For a seamless user experience
 * [Glide](https://github.com/bumptech/glide) - loading images
 * [DataBinding](https://developer.android.com/topic/libraries/data-binding)
-
+  *paging-to achieve stability
 # Architecture
 
 * [MVVM Architecture](https://developer.android.com/jetpack/guide) (Model -View - ViewModel)
+* MVVM architecture separates the business from the UI,which makes it easier for debugging.
 
-#Features
+#assumptions made
+ users will not need to see the cast or trailers in the app
+ no any other additional functionality was needed.e.g searching movies,categorizing movies e.t.c
 
+#challenges 
+rapid depracation of libraries
+time limitation
+
+#all Features were completed
 Fetch movies from the movie db api
 Cache all the data once fetched to a local storage with maximum size of 20MB
-MVVM clean architecture
+
+#glide-for image cache strategy
 
 
 
